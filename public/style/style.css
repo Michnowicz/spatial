@@ -176,6 +176,7 @@ nav div:last-of-type a {
 .sec2subcont div p {
   font-size: 16px;
   color: #484848;
+  font-weight: 700;
 }
 
 #sec2btn {
@@ -201,6 +202,82 @@ nav div:last-of-type a {
 #sec2btn button:last-of-type {
   background-color: #323037;
   width: 200px;
+}
+
+#sec3 {
+  width: 100%;
+  height: 667px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#sec3title {
+  margin-top: 74px;
+  width: 100%;
+  align-self: flex-start;
+}
+#sec3title h2 {
+  margin-left: 12%;
+}
+#sec3title h3 {
+  margin-top: 9px;
+  margin-left: 11.8%;
+  color: #484848;
+}
+
+#sec3cont {
+  width: 80%;
+  margin-top: 73px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 46px;
+}
+
+.sec3subcont {
+  height: fit-content;
+  width: 46%;
+  display: flex;
+}
+.sec3subcont img {
+  height: 133px;
+  border-radius: 50%;
+  border: solid 6px #e3e3e3;
+}
+.sec3subcont div h4 {
+  margin: 2px 0 0 0;
+  font-size: 13.2px;
+  padding-right: 2px;
+  color: #484848;
+}
+.sec3subcont div h5 {
+  font-size: 11px;
+  margin: 9px 0 0 0;
+  padding-right: 2px;
+  font-weight: 300;
+  color: #aaaaaa;
+}
+.sec3subcont div p {
+  margin-top: 18px;
+  padding-right: 2px;
+  line-height: 23px;
+  color: #968692;
+}
+.sec3subcont:nth-of-type(odd) img {
+  order: 2;
+  margin-right: 1px;
+}
+.sec3subcont:nth-of-type(odd) div {
+  text-align: right;
+  padding-right: 22px;
+}
+.sec3subcont:nth-of-type(even) img {
+  margin-left: 2px;
+}
+.sec3subcont:nth-of-type(even) div {
+  padding-left: 23px;
 }
 
 /*# sourceMappingURL=style.css.map */
